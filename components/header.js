@@ -10,7 +10,7 @@ export default function Header() {
 
   useEffect(() => {
     const getEthPrice = async () => {
-      const response = await axios.get('http://localhost:5001/getEthPrice', {});
+      const response = await axios.get(`${process.env.URL}getEthPrice`, {});
       setEthPrice(response.data.usdPrice);
     };
     getEthPrice();
