@@ -4,7 +4,7 @@ import styles from '@/styles/Home.module.css';
 import { Bean, Beans } from '@web3uikit/icons';
 import { Illustration } from '@web3uikit/core';
 
-import SearchResults from '../searchResults.js';
+import SearchResults from './searchResults';
 
 export default function Search() {
   const [showResult, setShowResult] = useState(false);

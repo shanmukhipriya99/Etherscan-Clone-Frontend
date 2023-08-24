@@ -4,7 +4,7 @@
   align-items: center;
   min-height: 100vh;
   background-color: #161616;
-  font-family: "Golos", sans-serif, Arial, Helvetica;
+  font-family: 'Golos', sans-serif, Arial, Helvetica;
 }
 
 .header {
@@ -76,7 +76,7 @@
 .searchHeader {
   display: flex;
   background-color: rgba(0, 0, 0, 0.506);
-  background-image: url("https://etherscan.io/images/svg/waves-light.svg");
+  background-image: url('https://etherscan.io/images/svg/waves-light.svg');
   height: 17rem;
   padding: 0 11.5rem;
   padding-top: 3rem;
@@ -256,9 +256,10 @@
 
 .transfer {
   font-size: 0.8rem;
-  width: 8rem;
+  width: 5rem;
+  overflow: hidden;
   background-color: #151515;
-  padding: 0.35rem 1.2rem;
+  padding: 0.35rem 0.2rem;
   border: 1px solid #2c2c2c;
   border-radius: 0.3rem;
 }
