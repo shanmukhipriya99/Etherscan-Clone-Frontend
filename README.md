@@ -1,3 +1,33 @@
+# Etherscan-Clone-Frontend
+Frontend Code for the Etherscan clone.
+
+<img width="756" alt="image" src="https://github.com/shanmukhipriya99/Etherscan-Clone-Frontend/assets/37501487/fa9f1d4a-2e8d-4944-9c5c-6233865422d9">
+
+```npm run dev```
+
+Website hosted at: 
+
+Since I'm using the free version of Moralis, a limited number of calls can be made.
+
+## Technologies Used
+
+
+- **Moralis Web3 API**: Moralis provides a powerful Web3 API that simplifies interaction with the Ethereum blockchain, making it easier to retrieve and manage blockchain data.
+
+- **Next.js**: Next.js, built on top of Node.js, is a popular React framework that facilitates the creation of fast and server-rendered applications.
+
+## Features
+
+
+1. Retrieving the current Ether price.
+2. Displaying the latest blocks on the Ethereum blockchain.
+3. Listing the most recent transactions that have occurred.
+4. Providing a detailed view of all transactions associated with a specific wallet address.
+
+
+<========================================================================================>
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
