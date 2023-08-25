@@ -34,7 +34,6 @@ export default function HeroSection() {
 
       const transactions = [response.data.previousBlockInfo[0].transactions];
 
-      console.log('transactions', transactions[0]);
       setTotalTransactions(
         response.data.previousBlockInfo[1].totalTransactions
       );
@@ -165,9 +164,6 @@ export default function HeroSection() {
                           <section className={styles.blueText}>
                             {block.blockNumber}
                           </section>
-                          <section>
-                            {moment(block.time, 'YYYYMMDD').fromNow()}
-                          </section>
                         </td>
                         <td className={styles.tdTxns}>
                           <section>
@@ -214,9 +210,6 @@ export default function HeroSection() {
                         <td className={styles.tdBlock}>
                           <section className={styles.blueText}>
                             {txn.transactionHash?.slice(0, 14)}...
-                          </section>
-                          <section>
-                            {moment(txn.time, 'YYYYMMDD').fromNow()}
                           </section>
                         </td>
                         <td className={styles.tdFromTo}>
