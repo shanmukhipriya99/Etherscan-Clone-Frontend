@@ -12,7 +12,6 @@ export default function SearchResults(props) {
       <p className={styles.amountOfTransactions}>
         Total transactions:{' '}
         <span className={styles.blueText}>{props.result.result.length}</span>
-        
       </p>
       <table className={styles.txnSection}>
         <thead>
